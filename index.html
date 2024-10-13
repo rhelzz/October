@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .full-height-sidebar {
+        height: 147.25vh;
+        }
+
+        .full-height-content {
+        height: 135vh;
+        }
+    </style>
+</head>
+<body class="bg-orange-100">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="bg-orange-300 w-20 flex flex-col items-center py-8 space-y-8 full-height-sidebar">
+            <i class="fas fa-home text-white text-2xl"></i>
+            <i class="fas fa-calendar-alt text-white text-2xl"></i>
+            <i class="fas fa-bell text-white text-2xl"></i>
+            <i class="fas fa-cog text-white text-2xl"></i>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col">
+            <!-- Header -->
+            <div class="flex items-center justify-between p-6 bg-white shadow-md">
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-camera text-orange-300 text-2xl"></i>
+                    <input class="bg-gray-100 rounded-full px-4 py-2 focus:outline-none" placeholder="Search..." type="text"/>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-user-circle text-orange-300 text-4xl"></i>
+                </div>
+            </div>
+            
+            <!-- Content -->
+            <div class="flex flex-1">
+                <!-- Left Content -->
+                <div class="flex-1 p-6">
+                    <div class="bg-orange-200 rounded-lg p-12 mb-6">
+                        <img src="https://storage.googleapis.com/a1aa/image/sxoHiawiaFLgL5sX8wjjIG5lOY9Hez1crfmLtAWA7uxgAOmTA.jpg" 
+                             alt="Illustration of a dog walking in autumn" 
+                             class="rounded-lg mb-4 w-full h-96 object-cover"/>
+                        <div class="text-orange-700 text-xl font-bold">A Bright and Cheerful Day</div>
+                        <div class="text-gray-600">The sun rose high in the sky, casting a warm golden glow over the landscape. Birds chirped merrily, filling the air with their joyful songs. Flowers bloomed in vibrant colors, their petals dancing gently in the soft breeze. People ventured outside, smiles on their faces as they embraced the beautiful weather. Children laughed and played in the park, while friends gathered for picnics under the shade of leafy trees. It was a day filled with laughter, happiness, and the promise of new beginnings, reminding everyone to appreciate the simple joys life has to offer.</div>
+                    </div>
+                    <div class="text-gray-600 text-lg font-semibold mb-4">Day Schedule</div>
+                    <div class="grid grid-cols-4 gap-4">
+                        <div class="bg-white rounded-lg p-4 flex flex-col items-center">
+                            <img src="https://i.pinimg.com/enabled_hi/564x/58/fd/34/58fd34bb060d582abe9aff1480901299.jpg" 
+                                 alt="Illustration of a confess" 
+                                 class="rounded-lg mb-2 h-24 w-24 object-cover"/>
+                            <div class="text-gray-600">Confess</div>
+                            <div class="text-gray-400 text-sm">05 Sept</div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 flex flex-col items-center">
+                            <img src="https://i.pinimg.com/enabled_hi/564x/8c/e1/c0/8ce1c096a6952befaeb0fc5ee779c128.jpg" 
+                                 alt="Illustration of a" 
+                                 class="rounded-lg mb-2 h-24 w-24 object-cover"/>
+                            <div class="text-gray-600">1 Month Anniversary</div>
+                            <div class="text-gray-400 text-sm">05 Oct</div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 flex flex-col items-center">
+                            <img src="https://i.pinimg.com/736x/36/4e/4a/364e4a9c14eca799e996c1b5e845f2f6.jpg" 
+                                 alt="Illustration of a party" 
+                                 class="rounded-lg mb-2 h-24 w-24 object-cover"/>
+                            <div class="text-gray-600">Birthday ( ezaa )</div>
+                            <div class="text-gray-400 text-sm">10 Apr</div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 flex flex-col items-center">
+                            <img src="https://i.pinimg.com/736x/01/ba/4b/01ba4be66fcc09dbd415dd2a449b98d4.jpg" 
+                                 alt="Illustration of a party" 
+                                 class="rounded-lg mb-2 h-24 w-24 object-cover"/>
+                            <div class="text-gray-600">Birthday ( vikaa )</div>
+                            <div class="text-gray-400 text-sm">13 Aug</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Content -->
+                <div class="w-80 bg-white p-6 shadow-md full-height-content">
+                    <div class="mb-6">
+                        <div class="text-gray-600 text-lg font-semibold mb-2">October Activities</div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://i.pinimg.com/enabled_hi/564x/1b/42/e7/1b42e773b992c226bbeaa7ead50c7c75.jpg" 
+                                     alt="Activity icon" 
+                                     class="rounded-full w-8 h-8"/>
+                                <p class="text-gray-600">Buy an ice cream together??</p>
+                            </div>
+                            <i class="fas fa-ellipsis-h text-gray-400"></i>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://i.pinimg.com/enabled_hi/564x/a2/79/86/a279866fd4084b058d616592269f13c4.jpg" 
+                                     alt="Activity icon" 
+                                     class="rounded-full w-8 h-8"/>
+                                <p class="text-gray-600">Doing laravel datatable tasks</p>
+                            </div>
+                            <i class="fas fa-ellipsis-h text-gray-400"></i>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://i.pinimg.com/enabled_hi/564x/10/b3/fb/10b3fbf056ebd86dea6329b08dc32155.jpg" 
+                                     alt="Activity icon" 
+                                     class="rounded-full w-8 h-8"/>
+                                <p class="text-gray-600">Learn to implement crud in laravel?</p>
+                            </div>
+                            <i class="fas fa-ellipsis-h text-gray-400"></i>
+                        </div>
+                        <div class="flex justify-between items-center mb-2">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://i.pinimg.com/736x/ca/53/bb/ca53bb34545d29edfd11035b1828938d.jpg" 
+                                     alt="Activity icon" 
+                                     class="rounded-full w-8 h-8"/>
+                                <p class="text-gray-600">Secret special day!!??</p>
+                            </div>
+                            <i class="fas fa-ellipsis-h text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-gray-600 text-lg font-semibold mb-2">Date Ideas</div>
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="https://i.pinimg.com/enabled_hi/564x/ad/6c/8b/ad6c8ba25ee5a5c554b3dad8e0de6632.jpg" 
+                                 alt="Illustration of a date idea" 
+                                 class="rounded-lg w-16 h-16 object-cover"/>
+                            <div class="text-gray-600">Math Study Date</div>
+                        </div>
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="https://i.pinimg.com/736x/78/84/f8/7884f82d0f334b62d00d6642c998fff1.jpg" 
+                                 alt="Illustration of a date idea" 
+                                 class="rounded-lg w-16 h-16 object-cover"/>
+                            <div class="text-gray-600">Dating Coding A Program</div>
+                        </div>
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="https://i.pinimg.com/564x/27/ef/5c/27ef5c2093feb4cb9365cc9e5ede52d5.jpg" 
+                                 alt="Illustration of a date idea" 
+                                 class="rounded-lg w-16 h-16 object-cover"/>
+                            <div class="text-gray-600">Ice Cream Date</div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
